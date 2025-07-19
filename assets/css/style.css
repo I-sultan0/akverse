@@ -564,6 +564,9 @@ main {
   border-radius: inherit;
   z-index: -1;
 }
+.service-item p {
+  color: white;
+}
 
 /**
  * #testimonials 

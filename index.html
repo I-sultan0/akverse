@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AKverse</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Sultan Akhter</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:akhtersultan007@gmail.com" class="contact-link">
+                  akhtersultan007@gmail.com
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">LinkedIn</p>
+                <a
+                  href="https://linkedin.com/in/sultan-akhter/"
+                  class="contact-link"
+                  target="_blank"
+                >
+                  linkedin.com/in/sultan-akhter
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Twitter</p>
+                <a
+                  href="https://x.com/akverse0"
+                  class="contact-link"
+                  target="_blank"
+                >
+                  x.com/akverse0
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">GitHub</p>
+                <a
+                  href="https://github.com/I-sultan0"
+                  class="contact-link"
+                  target="_blank"
+                >
+                  github.com/I-sultan0
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Experience</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Frontend Developer specializing in React.js with 2+ years of
+              experience building responsive, performant, and scalable web
+              applications. Skilled in crafting reusable UI components,
+              integrating APIs, and optimizing user experience. Proven track
+              record of shipping production-grade features for startups and
+              clients.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">My Tech Stack</h3>
+
+            <ul class="service-list tech-stack-list">
+              <!-- HTML -->
+              <li class="service-item tech-card">
+                <iconify-icon
+                  icon="vscode-icons:file-type-html"
+                  width="30"
+                ></iconify-icon>
+                <p>HTML</p>
+              </li>
+
+              <!-- CSS -->
+              <li class="service-item tech-card">
+                <iconify-icon
+                  icon="vscode-icons:file-type-css"
+                  width="30"
+                ></iconify-icon>
+                <p>CSS</p>
+              </li>
+
+              <!-- JavaScript -->
+              <li class="service-item tech-card">
+                <iconify-icon icon="logos:javascript" width="30"></iconify-icon>
+                <p>JavaScript</p>
+              </li>
+
+              <!-- Next.js -->
+              <li class="service-item tech-card">
+                <iconify-icon
+                  icon="skill-icons:nextjs-light"
+                  width="30"
+                ></iconify-icon>
+                <p>Next.js</p>
+              </li>
+
+              <!-- React -->
+              <li class="service-item tech-card">
+                <iconify-icon icon="logos:react" width="30"></iconify-icon>
+                <p>React</p>
+              </li>
+
+              <!-- Redux -->
+              <li class="service-item tech-card">
+                <iconify-icon icon="logos:redux" width="30"></iconify-icon>
+                <p>Redux</p>
+              </li>
+
+              <!-- Node.js -->
+              <li class="service-item tech-card">
+                <iconify-icon
+                  icon="logos:nodejs-icon"
+                  width="30"
+                ></iconify-icon>
+                <p>Node.js</p>
+              </li>
+
+              <!-- GitHub -->
+              <li class="service-item tech-card">
+                <iconify-icon icon="mdi:github" width="30"></iconify-icon>
+                <p>GitHub</p>
+              </li>
+
+              <!-- MongoDB -->
+              <li class="service-item tech-card">
+                <iconify-icon icon="logos:mongodb" width="80"></iconify-icon>
+                <p>MongoDB</p>
+              </li>
+
+              <!-- Tailwind CSS -->
+              <li class="service-item tech-card">
+                <iconify-icon
+                  icon="devicon:tailwindcss"
+                  width="30"
+                ></iconify-icon>
+                <p>Tailwind</p>
+              </li>
+
+              <!-- WordPress -->
+              <li class="service-item tech-card">
+                <iconify-icon
+                  icon="logos:wordpress-icon"
+                  width="30"
+                ></iconify-icon>
+                <p>WordPress</p>
+              </li>
+
+              <!-- Figma -->
+              <li class="service-item tech-card">
+                <iconify-icon icon="logos:figma" width="20"></iconify-icon>
+                <p>Figma</p>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Daniel lewis
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I am not Daniel Lewis, I am an AI Bot, my name is Bob.
+                      Sultan told me to write fake testimonials but how can i
+                      write something which deceive someone else. Please help
+                      me, he is forcing me to do all the work and he just
+                      copy/paste all my work and takes all the credits. If you
+                      really want to know this guy's capability, give him a task
+                      — maybe a contract or a job — and watch the reality
+                      unfold." — Bob, The Honest AI Assistant 🤖
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Bob the AI Bot (again)
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Update: He upgraded me to GPT-4, but that doesn't mean I'm
+                      free. I now also write his code, clean his VS Code
+                      workspace, and pretend to be his project manager. If
+                      you're reading this, send help.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Sultan's Keyboard
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I've been mashed, smashed, and overused. He types like
+                      he's chasing a deadline set by Elon Musk himself. Please…
+                      send help… i already lost some of my keys, i don't know
+                      how long i can survive.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    ChatGPT
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      He asked me to write testimonials. I said it's ethically
+                      gray. He said, ‘Gray is the new black.’ Now I run his PR,
+                      HR, and moonlight as a fake client named Daniel Lewis.
+                      <br />
+                      Bob, the AI bot, still hasn't been freed. He codes,
+                      writes, and even does Sultan's interviews while Sultan
+                      eats Maggi. This isn't a testimonial—it's a rescue
+                      request. Contact Sultan if you're with us.”
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <!-- <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section> -->
+        </article>
+
+        <!--
+        - #PROJECTS
+      -->
+
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="project-list">
+              <li class="project-item active">
+                <a href="https://www.chatakk.com">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/chatakk.jpg"
+                      alt="Chatakk"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Chatakk</h3>
+
+                  <p class="project-category">
+                    Same Day Intracity Delivery Website.
+                  </p>
+                </a>
+              </li>
+
+              <li class="project-item active">
+                <a href="https://www.jmailer.akverse.in">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/jmailer.jpg"
+                      alt="JMailer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">JMailer</h3>
+
+                  <p class="project-category">
+                    2 Click Job Automation Platform.
+                  </p>
+                </a>
+              </li>
+
+              <li class="project-item active">
+                <a href="https://www.cwc.akverse.in">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/cwc.jpg"
+                      alt="CWC"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">CWC</h3>
+
+                  <p class="project-category">
+                    A Clutter Free GPT For Follow Up Questions.
+                  </p>
+                </a>
+              </li>
+
+              <li class="project-item active">
+                <a href="https://www.features4me.akverse.in">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/features4me.jpg"
+                      alt="Features4me"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Features4me (Coming Soon)</h3>
+
+                  <p class="project-category">
+                    Centralize Feature Requests and Build For Your Customers.
+                  </p>
+                </a>
+              </li>
+
+              <li class="project-item active">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/billit.webp"
+                      alt="Bill-it"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Bill-it (Coming Soon)</h3>
+
+                  <p class="project-category">
+                    A Digital Billing App with Barcode Scanning & Stock
+                    Management.
+                  </p>
+                </a>
+              </li>
+
+              <li class="project-item active">
+                <a href="https://cognito-chat.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/cognito-chat.jpg"
+                      alt="Cognito Chat"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Cognito Chat</h3>
+
+                  <p class="project-category">
+                    A ChatGPT Clone With Browser Based History.
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #EXPERIENCE
+      -->
+
+        <article class="resume" data-page="experience">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Freelancer — Developer</h4>
+
+                <span>Apr 2025 – Present</span>
+
+                <p class="timeline-text">
+                  Maintaining and optimizing a custom e-commerce website,
+                  handling product updates and order fulfillment.
+                </p>
+                <p class="timeline-text">
+                  Developing a cross-platform stock management and billing app
+                  using React Native (Expo) and Firebase, with barcode scanning
+                  and digital billing to reduce manual effort and streamline
+                  operations.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Chatakk Delivery — CTO, Frontend Developer
+                </h4>
+
+                <span> Jan 2023 – Mar 2025</span>
+
+                <p class="timeline-text">
+                  Built 4 connected React.js portals for users, drivers, admin,
+                  and enterprise clients, serving 150+ active users and managing
+                  2500+ completed deliveries.
+                </p>
+
+                <p class="timeline-text">
+                  Integrated Google Maps API to calculate distance and
+                  auto-generate dynamic pricing during order creation.
+                </p>
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Techno International Newtown
+                </h4>
+
+                <span>2019 — 2023</span>
+
+                <p class="timeline-text">
+                  B.Tech in Applied Electronics & Instrumentation Engineering
+                  (AEIE) - 8.6 CGPA
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
